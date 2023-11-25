@@ -1,0 +1,31 @@
+.theme-btn {
+  width: 10%;
+  position: absolute;
+  z-index: 10;
+}
+.light-theme {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.light-theme p {
+  color: black;
+}
+.dark-theme p {
+  color: black;
+}
+.dark-theme {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
